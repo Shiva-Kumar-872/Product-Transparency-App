@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "title": "FairTrade Organic Coffee",
+      "summary": "Certified FairTrade coffee beans from Colombia.",
+      "pdfPath": "/reports/coffee.pdf"
+    },
+    {
+      "id": 2,
+      "title": "EcoFriendly Shampoo",
+      "summary": "Plastic-free packaging with plant-based ingredients.",
+      "pdfPath": "/reports/shampoo.pdf"
+    }
+  ]
+  
