@@ -1,69 +1,90 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛡️ Product Transparency App
 
-Currently, two official plugins are available:
+Empowering ethical, health-conscious decisions with intelligent product reports.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📄 Business Requirement Document (BRD)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Consumers and businesses today seek clarity around product ethics, sustainability, sourcing, and compliance. EthicalScan meets this need through a transparent, scalable platform that collects detailed product data and transforms it into structured reports. It supports:
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Ethical-first product submissions
+- Instant generation of transparency documents
+- Product Reports to Pds
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🎯 Product Requirement Document (PRD)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+**Objective**: Build a full-stack web application that collects detailed product information through dynamic, intelligent follow-up questions and generates a clean PDF-based Product Transparency Report.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### ✨ Functional Requirements
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Dynamic multi-step form with conditional question flow
+- Admin dashboard to view, search, filter, and categorize products
+- PDF generation based on submitted product data
+- Public-facing homepage to educate and onboard users
+- Optional company-authenticated access
+
+### 🧠 AI-Powered Contributions
+
+- Auto-suggestion of categories, tags and fields
+- Developer efficiency via GitHub Copilot, Cursor, Tabnine
+- Semantic PDF summarization for report generation (planned module)
+
+---
+
+## ⚙️ Tech Stack
+
+| Layer        | Technology Used                            |
+| ------------ | ------------------------------------------- |
+| Frontend     | **React**, **TypeScript**, **Tailwind CSS** |
+| Backend      | **Express.js** (Node.js) or **Nest.js**     |
+| Database     | **PostgreSQL**, optionally Firebase/MongoDB |
+| API Testing  | **Postman**, **Axios**                      |
+| PDF Export   | **jsPDF** or **pdf-lib**                    |
+| Deployment   | GitHub Pages / Render / Vercel              |
+| AI Tools     | **GitHub Copilot**, **Cursor**, **Tabnine**, Replit |
+
+---
+
+## 📸 Screenshots
+
+| Homepage                             | Dashboard                            |
+| ----------------------------------- | ------------------------------------- |
+| ![Homepage](./screenshots/home.png) | ![Dashboard](./screenshots/dashboard.png) |
+
+_Add your real screenshots under `/screenshots` folder in the repo._
+
+---
+
+
+## 📁 📁 Project Directory Structure
+
+
+Product-Transparency-App/
+├── frontend/
+│   ├── src/
+│   │   ├── pages/         # Individual page components
+│   │   ├── components/    # Reusable UI elements
+│   │   └── assets/        # Static assets (images, styles)
+│   └── public/            # Public files (index.html, favicon)
+├── backend/
+│   ├── controllers/       # Logic for handling requests
+│   ├── routes/            # API route definitions
+│   ├── models/            # Data models and schema
+│   └── prisma/            # Prisma client and migrations
+├── reports/               # Generated PDF reports
+├── screenshots/           # UI screen captures for documentation
+├── README.md              # Project documentation
+└── .gitignore             # Files and folders to exclude from Git tracking
+
+
+### 👨‍💻 Author: Shiva Kumar
+
+📍 Hyderabad, India  
+🌐 GitHub: [Shiva-Kumar-872](https://github.com/Shiva-Kumar-872)  
+💬 LinkedIn: [linkedin.com/in/shiva-kumar-7053a429b] 
+✉️ Email: shivak24303@example.com 
+
