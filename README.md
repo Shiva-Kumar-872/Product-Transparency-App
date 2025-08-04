@@ -58,11 +58,13 @@ Consumers and businesses today seek clarity around product ethics, sustainabilit
  ![Homepage](https://github.com/Shiva-Kumar-872/Product-Transparency-App/blob/master/HomePage.png?raw=true) 
 
 | Submit Product
- ![Submit Product](https://github.com/Shiva-Kumar-872/Product-Transparency-App/blob/master/Submit%20Product%20Page.png?raw=true)
+ ![Submit Product Page](https://github.com/Shiva-Kumar-872/Product-Transparency-App/blob/master/Submit%20Product%20Page.png?raw=true)
 
 | Report
- ![Report](https://github.com/Shiva-Kumar-872/Product-Transparency-App/blob/master/Reports%20Page.png?raw=true)
+ ![Reports Page](https://github.com/Shiva-Kumar-872/Product-Transparency-App/blob/master/Reports%20Page.png?raw=true)
 
+| Dashboard
+ ![Dashboard Paget](https://github.com/Shiva-Kumar-872/Product-Transparency-App/blob/master/DashBoard%20Page.png?raw=true)
 
 ---
 
